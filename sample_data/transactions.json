@@ -1,0 +1,20 @@
+[
+  {
+    "id": "txn-001",
+    "occurred_at": "2024-01-15T10:30:00",
+    "amount": 12500.0,
+    "currency": "USD",
+    "description": "Supplier payment",
+    "account_id": "4000",
+    "counterparty": "ACME-SUPPLIER"
+  },
+  {
+    "id": "txn-002",
+    "occurred_at": "2024-02-02T14:00:00",
+    "amount": 250.75,
+    "currency": "USD",
+    "description": "Office supplies",
+    "account_id": "6100",
+    "counterparty": "OFFICE-DEPOT"
+  }
+]

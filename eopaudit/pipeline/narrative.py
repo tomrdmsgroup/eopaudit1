@@ -13,7 +13,7 @@ class NarrativeBuilder:
     def build(self, records: List[VisibilityRecord]) -> Narrative:
         lines = [
             "EOP Audit Narrative",
-            "Pipeline: Transactions → Signals → Situations → Visibility → Narrative",
+            "Pipeline: Transactions -> Signals -> Situations -> Visibility -> Narrative",
             "Execution scope: visibility/reporting only",
             "",
         ]
@@ -31,5 +31,5 @@ class NarrativeBuilder:
     def persist(self, narrative: Narrative, output_dir: Path) -> PersistedStage:
         output_dir.mkdir(parents=True, exist_ok=True)
         path = output_dir / "narrative.txt"
-        path.write_text(narrative.content)
+        path.write_text(narrative.content, encoding="utf-8")
         return PersistedStage(name="narrative", output_path=path)

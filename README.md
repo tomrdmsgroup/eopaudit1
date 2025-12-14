@@ -1,6 +1,6 @@
 # EOP Audit Application Skeleton
 
-This repository contains a runnable skeleton for the EOP Audit pipeline following the required sequence **Transactions → Signals → Situations → Visibility → Narrative**. The build only affects visibility/reporting; detection and interpretation remain unchanged until official policies are provided.
+This repository contains a runnable skeleton for the EOP Audit pipeline following the required sequence **Transactions -> Signals -> Situations -> Visibility -> Narrative**. The build only affects visibility/reporting; detection and interpretation remain unchanged until official policies are provided.
 
 ## Getting started
 
